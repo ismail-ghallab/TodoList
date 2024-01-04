@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color:  #F0EFE9;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px; /* or any width you prefer */
+}
+
+/* .scrollbar-custom::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #888; /* handle color */
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: #555; /* handle hover color */
+}
