@@ -40,7 +40,7 @@ function App() {
 
   return (
     <>
-      <div className=" w-[300px] md:w-[400px] h-[500px]   m-auto mt-[20vh] bg-white relative">
+      <div className=" w-[300px] md:w-[400px] h-[500px]   m-auto mt-[10vh] bg-white relative">
         <Header />
         <TaskList
           tasks={tasks}
